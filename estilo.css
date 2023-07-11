@@ -1,0 +1,104 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .alumnos-list {
+    margin-top: 20px;
+  }
+  
+  .alumno {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alumno label {
+    display: inline-block;
+    width: 80px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .alumno input {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #calcular-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  #agregar-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #calcular-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #resultados {
+    margin-top: 40px;
+  }
+  
+  #resultados h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #lista-resultados {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #lista-resultados li {
+    margin-bottom: 10px;
+  }
+  
+  #lista-resultados li span {
+    font-weight: bold;
+  }
+  
+  #lista-resultados li.aprobado {
+    color: #4CAF50;
+  }
+  
+  #lista-resultados li.desaprobado {
+    color: #f44336;
+  }
